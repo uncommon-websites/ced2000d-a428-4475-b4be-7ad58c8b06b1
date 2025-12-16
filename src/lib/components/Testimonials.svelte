@@ -1,60 +1,60 @@
 <script lang="ts">
 	const testimonials = [
 		{
-			quote: "We've tried more code review tools than I can count. Greptile outperforms them all by a mile. Honestly the only AI reviewer that doesn't annoy the shit out of me.",
-			author: "James",
-			role: "CTO • Brex",
-			image: "https://i.pravatar.cc/150?u=james",
-            icon: "https://placehold.co/20x20/333/fff?text=B"
+			quote: "PilotGPT saved my bacon when I couldn't remember the emergency procedure for an alternator failure. Having instant access to aircraft-specific guidance without fumbling through the POH was invaluable.",
+			author: "Sarah M.",
+			role: "Private Pilot • Cessna 172",
+			image: "https://i.pravatar.cc/150?u=sarah",
+            icon: "https://placehold.co/20x20/333/fff?text=C"
 		},
 		{
-			quote: "We've been impressed by Greptile's code review quality. It's tightened our feedback loops, improved consistency, and freed up engineers to focus on higher-level design and architecture.",
-			author: "Mark",
-			role: "Eng Manager • Vercel",
-			image: "https://i.pravatar.cc/150?u=mark",
-            icon: "https://placehold.co/20x20/000/fff?text=V"
+			quote: "As a CFI, I was skeptical at first. But PilotGPT's accuracy and offline capability make it a fantastic training tool. My students love having instant answers during ground school.",
+			author: "Mike R.",
+			role: "CFI • Flight School Owner",
+			image: "https://i.pravatar.cc/150?u=mike",
+            icon: "https://placehold.co/20x20/000/fff?text=F"
 		},
 		{
-			quote: "Greptile helps the team do their best work. It levels everybody up and helps ensure that we're all proud of our code",
-			author: "Anirudh",
-			role: "Tech Lead • Sourcegraph",
-			image: "https://i.pravatar.cc/150?u=anirudh",
-            icon: "https://placehold.co/20x20/purple/fff?text=S"
+			quote: "The ATC transcription feature is a game-changer. I can review what ATC said after landing and it's helped me improve my radio communication skills tremendously.",
+			author: "Jennifer L.",
+			role: "Student Pilot • Piper Cherokee",
+			image: "https://i.pravatar.cc/150?u=jennifer",
+            icon: "https://placehold.co/20x20/purple/fff?text=P"
 		},
 		{
-			quote: "Greptile is one of the most impressive AI code review tools I've used. It's right up there with Cursor in terms of changing the game.",
-			author: "Marlin",
-			role: "CTO • Ponder.sh",
-			image: "https://i.pravatar.cc/150?u=marlin",
-            icon: "https://placehold.co/20x20/blue/fff?text=P"
+			quote: "I fly in remote areas where cell service is non-existent. PilotGPT works perfectly offline and has answered questions about weather minimums and airspace that would have otherwise gone unanswered.",
+			author: "Tom B.",
+			role: "Commercial Pilot • Backcountry",
+			image: "https://i.pravatar.cc/150?u=tom",
+            icon: "https://placehold.co/20x20/blue/fff?text=B"
 		},
 		{
-			quote: "I'm thankful for the things Greptile catches in my pull requests.",
-			author: "Hahnbee",
-			role: "CTO • Mintlify",
-			image: "https://i.pravatar.cc/150?u=hahnbee",
-            icon: "https://placehold.co/20x20/green/fff?text=M"
+			quote: "Finally, an aviation app that understands my specific aircraft. The Cirrus SR22-specific guidance is spot-on and has helped me become a safer pilot.",
+			author: "David K.",
+			role: "Private Pilot • Cirrus SR22",
+			image: "https://i.pravatar.cc/150?u=david",
+            icon: "https://placehold.co/20x20/green/fff?text=S"
 		},
 		{
-			quote: "Greptile has been the first AI code review tool I've used that actually provides useful feedback on PRs. It's catching issues that human reviewers easily miss and giving senior-level suggestions to boot",
-			author: "Chase",
-			role: "CTO • Million.js",
-			image: "https://i.pravatar.cc/150?u=chase",
-            icon: "https://placehold.co/20x20/red/fff?text=M"
+			quote: "PilotGPT is like having a CFI in your pocket. The instant answers to regulation questions have saved me countless hours of searching through the FAR/AIM.",
+			author: "Amanda P.",
+			role: "Instrument Student • Diamond DA40",
+			image: "https://i.pravatar.cc/150?u=amanda",
+            icon: "https://placehold.co/20x20/red/fff?text=D"
 		},
         {
-			quote: "Took me a year, but I finally signed up -- wow. Greptile's code reviews are very good. Been using this for a few weeks now, the team is very responsive! Highly recommended!",
-			author: "Chris",
-			role: "CTO • Sentry",
-			image: "https://i.pravatar.cc/150?u=chris",
-            icon: "https://placehold.co/20x20/333/fff?text=S"
+			quote: "I've been flying for 30 years and this is the most useful aviation app I've ever used. The offline capability alone makes it worth every penny.",
+			author: "Robert H.",
+			role: "ATP • Corporate Pilot",
+			image: "https://i.pravatar.cc/150?u=robert",
+            icon: "https://placehold.co/20x20/333/fff?text=A"
 		},
         {
-			quote: "Took just 15 min to do the setup and it's been a game-changer. It catches small bugs that could easily slip through in big PRs and speeds up our release cycle.",
-			author: "Harish",
-			role: "CTO • Flexpa",
-			image: "https://i.pravatar.cc/150?u=harish",
-            icon: "https://placehold.co/20x20/orange/fff?text=F"
+			quote: "Setup took 5 minutes and I was getting accurate answers immediately. The CFI-verified responses give me confidence that I'm getting reliable information.",
+			author: "Lisa W.",
+			role: "Private Pilot • Beechcraft Bonanza",
+			image: "https://i.pravatar.cc/150?u=lisa",
+            icon: "https://placehold.co/20x20/orange/fff?text=B"
 		}
 	];
 </script>
@@ -65,10 +65,10 @@
 			[ TESTIMONIALS ]
 		</span>
 		<h2 class="font-display text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-4">
-			From Developers That Use Greptile
+			From Pilots Who Fly With PilotGPT
 		</h2>
 		<p class="font-mono text-sm text-gray-600">
-			See what developers are saying about their experience with Greptile
+			See what pilots are saying about their experience with PilotGPT
 		</p>
 	</div>
 

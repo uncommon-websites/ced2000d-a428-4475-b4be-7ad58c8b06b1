@@ -3,48 +3,50 @@
 		<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-16">
 			<div class="col-span-2 lg:col-span-1">
 				<a href="/" class="flex items-center gap-2 text-brand-dark font-medium text-xl tracking-tight mb-6">
-					<div class="w-6 h-6 bg-brand-green rounded-sm flex items-center justify-center text-white text-xs font-bold">G</div>
-					Greptile
+					<div class="w-6 h-6 text-primary-600">
+						<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z" fill="currentColor" />
+						</svg>
+					</div>
+					PilotGPT
 				</a>
 			</div>
 			
 			<div>
 				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Product</h4>
 				<ul class="space-y-3">
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Pricing</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Docs ↗</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">API ↗</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Zapier ↗</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Security</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Privacy</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Status</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Pricing</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Features</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Aircraft Database</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Offline Mode</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">ATC Transcription</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Safety & Privacy</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Download App</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Company</h4>
+				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Resources</h4>
 				<ul class="space-y-3">
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Blog</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Deep Dives</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Case Studies</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Examples</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Enterprise</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Careers</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Terms of Service</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Contact us</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Blog</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Pilot Stories</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">CFI Resources</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Flight School Program</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Support Center</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Terms of Service</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Contact Us</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Helpful Links</h4>
+				<h4 class="font-mono text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-4">Compare</h4>
 				<ul class="space-y-3">
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">For YC Companies &lt;3</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Greptile vs CodeRabbit</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Greptile vs Bugbot</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">What affects merge time?</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">What is AI code review?</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Benchmarks</a></li>
-					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-brand-green transition-colors">Content Library</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">PilotGPT vs ForeFlight</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">PilotGPT vs Garmin Pilot</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Why Offline Matters</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Aviation AI Explained</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">CFI Endorsements</a></li>
+					<li><a href="#" class="text-xs font-mono text-gray-600 hover:text-primary-600 transition-colors">Testimonials</a></li>
 				</ul>
 			</div>
 		</div>
@@ -69,7 +71,7 @@
 			</div>
 			
 			<div class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-				© 2024 Tazman, Inc.
+				© 2024 PilotGPT, Inc.
 			</div>
 		</div>
 	</div>
